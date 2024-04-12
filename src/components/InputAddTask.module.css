@@ -1,0 +1,27 @@
+.newTask {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-700);
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  font-size: 1rem;
+  flex: 1;
+
+}
+
+.newTask::placeholder {
+  color: var(--gray-300);
+}
+
+.createButton {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--blue-100);
+  color: var(--gray-100);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
