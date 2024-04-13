@@ -1,0 +1,32 @@
+.headerContent {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.headerContent p {
+  color: var(--blue-200);
+}
+
+.headerContent span {
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 40%;
+}
+
+.taskContainer {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1.5rem;
+}
+
+.taskContainer > img {
+  margin-bottom: 1rem;
+}
