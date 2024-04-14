@@ -6,7 +6,5 @@
 }
 
 .headerContent {
-  display: flex;
-  gap: 0.5rem;
   margin-top: calc(0px - 1.6531rem);
 }
