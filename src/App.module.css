@@ -8,3 +8,9 @@
 .headerContent {
   margin-top: calc(0px - 1.6531rem);
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
