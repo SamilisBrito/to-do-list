@@ -5,8 +5,7 @@
   background-color: var(--gray-500);
   color: var(--gray-100);
   font-size: 1rem;
-  flex: 1;
-
+  width: 100%;
 }
 
 .newTask::placeholder {
@@ -24,4 +23,20 @@
   align-items: center;
   font-size: 0.875rem;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.createButton:hover {
+  background-color: var(--blue-200);
+}
+
+.createButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.form{
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
 }
