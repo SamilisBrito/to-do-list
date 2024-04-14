@@ -1,0 +1,50 @@
+.task {
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: minmax(24px, 25px) 1fr minmax(24px, 25px);
+  align-items: start;
+  gap: 0.75rem;
+}
+
+.task + .task {
+  margin-top: 1rem;
+}
+
+.task > p {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+}
+
+.doneButton {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 100%;
+
+  line-height: 0;
+}
+
+.task .contentParagraph {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.trashButton {
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+  padding: 5px;
+
+  line-height: 0;
+  border-radius: 4px;
+}
+
+.trashButton:hover {
+  background-color: var(--gray-400);
+  color: var(--red-100);
+}
