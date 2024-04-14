@@ -11,11 +11,15 @@
   color: var(--blue-200);
 }
 
+.headerContent p:last-child {
+  color: var(--purple-200);
+}
+
 .headerContent span {
   color: var(--gray-200);
   background-color: var(--gray-400);
   padding: 0.125rem 0.5rem;
-  border-radius: 40%;
+  border-radius: 0.625rem;
 }
 
 .taskContainer {
